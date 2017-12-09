@@ -8,4 +8,6 @@
 
 'use strict';
 
+throw new Error("test error")
+
 module.exports = require('./lib/express');
